@@ -1,0 +1,122 @@
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info-picture {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 170px;
+    border-radius: 80px;
+    margin-right: 20px;
+    align-self: flex-start;
+    margin-top: 85px;
+}
+
+.personal-info-rest {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 60px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.localization {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.contact {
+    display: flex;
+    gap: 15px;
+}
+
+.email {
+    display: flex;
+    padding: 10px;
+    width: 310px;
+    background-color: rgb(70, 166, 87);
+    gap: 8px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.icon-email {
+    position: relative;
+    top: 3px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-black);
+    color: var(--main-green);
+    border: 1px solid rgb(49, 92, 58);
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 1.5px;
+    height: 50px;
+    width: 50px;
+}
+
+.contact-button:hover {
+    border: 1px solid var(--main-green);
+    transition: border 0.3s ease;
+}
+
+.copy-message {
+    position: absolute;
+    top: -1.8rem;
+    right: 0;
+    background-color: rgb(115, 213, 134);
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    white-space: nowrap;
+    animation: fadeInOut 2s ease-in-out;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.cv-message {
+    position: absolute;
+    top: -1.8rem;
+    left: 0;
+    background-color: rgb(115, 213, 134);
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    white-space: nowrap;
+    animation: fadeInOut 2s ease-in-out;
+    pointer-events: none;
+    z-index: 10;
+}

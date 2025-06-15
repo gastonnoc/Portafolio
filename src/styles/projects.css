@@ -1,0 +1,60 @@
+.projects-header {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.project-title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.whatsapp-text {
+    font-size: 30px;
+}
+
+.img-project {
+    width: 800px;
+    border-radius: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tech-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.enlaces-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+
+
+

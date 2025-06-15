@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: var(--background-black);
+    color: white;
+    display: flex;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 165px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 1700px;
+}
+
+footer {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
