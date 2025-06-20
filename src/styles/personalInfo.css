@@ -12,7 +12,7 @@
 }
 
 .profile-picture {
-    width: 170px;
+    width: 150px;
     border-radius: 80px;
     margin-right: 20px;
     align-self: flex-start;
@@ -28,20 +28,21 @@ h1 {
     margin-top: 80px;
     margin-bottom: 15px;
     padding: 0;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h2 {
     margin: 0;
     padding: 0;
     margin-bottom: 10px;
+    font-size: 37px;
 }
 
 .localization {
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 27px;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -49,17 +50,21 @@ h2 {
 .contact {
     display: flex;
     gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
 .email {
     display: flex;
-    padding: 10px;
-    width: 310px;
+    width: 280px;
+    height: 35px;
     background-color: rgb(70, 166, 87);
+    padding-bottom: 4px;
     gap: 8px;
-    padding-bottom: 15px;
     border-radius: 10px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .icon-email {
@@ -82,8 +87,8 @@ h2 {
     border-radius: 10px;
     cursor: pointer;
     padding-top: 1.5px;
-    height: 50px;
-    width: 50px;
+    height: 37px;
+    width: 37px;
 }
 
 .contact-button:hover {
@@ -99,7 +104,7 @@ h2 {
     color: #000;
     padding: 2px 8px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 17px;
     white-space: nowrap;
     animation: fadeInOut 2s ease-in-out;
     pointer-events: none;
@@ -112,9 +117,9 @@ h2 {
     left: 0;
     background-color: rgb(115, 213, 134);
     color: #000;
-    padding: 4px 10px;
+    padding: 2px 8px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 17px;
     white-space: nowrap;
     animation: fadeInOut 2s ease-in-out;
     pointer-events: none;

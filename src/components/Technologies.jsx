@@ -17,47 +17,47 @@ const Technologies = () => {
       <h3 className="technologies-title">Technologies</h3>
       <div className="bordes-container">
         <div className="borde-tech">
-          <SiHtml5 size={40} color="rgb(115,213,134)" />
+          <SiHtml5 size={28} color="rgb(115,213,134)" />
           HTML5
         </div>
         <div className="borde-tech">
-          <IoLogoCss3 size={40} color="rgb(115,213,134)" />
+          <IoLogoCss3 size={28} color="rgb(115,213,134)" />
           CSS3
         </div>
         <div className="borde-tech">
-          <RiJavascriptFill size={40} color="rgb(115,213,134)" />
+          <RiJavascriptFill size={28} color="rgb(115,213,134)" />
           JavaScript
         </div>
         <div className="borde-tech">
-          <BiLogoTypescript size={40} color="rgb(115,213,134)" />
+          <BiLogoTypescript size={28} color="rgb(115,213,134)" />
           TypeScript
         </div>
         <div className="borde-tech">
-          <FaReact size={40} color="rgb(115,213,134)" />
+          <FaReact size={28} color="rgb(115,213,134)" />
           React
         </div>
         <div className="borde-tech">
-          <FaNode size={40} color="rgb(115,213,134)" />
+          <FaNode size={28} color="rgb(115,213,134)" />
           NodeJS
         </div>
         <div className="borde-tech">
-          <BiLogoMongodb size={40} color="rgb(115,213,134)" />
+          <BiLogoMongodb size={28} color="rgb(115,213,134)" />
           MongoDB
         </div>
         <div className="borde-tech">
-          <GrMysql size={40} color="rgb(115,213,134)" />
+          <GrMysql size={28} color="rgb(115,213,134)" />
           MySQL
         </div>
         <div className="borde-tech">
-          <SiExpress size={40} color="rgb(115,213,134)" />
+          <SiExpress size={28} color="rgb(115,213,134)" />
           Express
         </div>
         <div className="borde-tech">
-          <FaGitAlt size={40} color="rgb(115,213,134)" />
+          <FaGitAlt size={28} color="rgb(115,213,134)" />
           Git
         </div>
         <div className="borde-tech">
-          <FaGithub size={40} color="rgb(115,213,134)" />
+          <FaGithub size={28} color="rgb(115,213,134)" />
           GitHub
         </div>
       </div>
@@ -65,11 +65,11 @@ const Technologies = () => {
       <h3 className="technologies-title">Learning </h3>
       <div className="bordes-container">
       <div className="borde-tech">
-        <RiNextjsLine size={40} color="rgb(115,213,134)" />
+        <RiNextjsLine size={28} color="rgb(115,213,134)" />
         NextJS
       </div>
       <div className="borde-tech">
-        <RiTailwindCssFill size={40} color="rgb(115,213,134)" />
+        <RiTailwindCssFill size={28} color="rgb(115,213,134)" />
         TailwindCSS
       </div>
       </div>

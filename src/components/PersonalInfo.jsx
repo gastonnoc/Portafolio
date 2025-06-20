@@ -45,7 +45,7 @@ const PersonalInfo = () => {
             <div className="email" onClick={handleCopyEmail} style={{ cursor: "pointer", position: "relative" }}>
               <MdOutlineMail className="icon-email" />
               gaston.nocquet.dev@gmail.com
-              {copied && <span className="copy-message">¡Copiado!</span>}
+              {copied && <span className="copy-message">Copied</span>}
             </div>
 
             <div className="contact-buttons" style={{ position: "relative" }}>
@@ -58,11 +58,11 @@ const PersonalInfo = () => {
                   setTimeout(() => setCvDownloaded(false), 2000);
                 }}
               >
-                <TbFileCv size={39} />
+                <TbFileCv size={28} />
               </a>
 
               {cvDownloaded && (
-                <span className="cv-message">¡CV descargado!</span>
+                <span className="cv-message">CV downloaded</span>
               )}
 
               <a
@@ -71,7 +71,7 @@ const PersonalInfo = () => {
                 rel="noopener noreferrer"
                 className="contact-button"
               >
-                <FiGithub size={39} color="rgb(115,213,134)" />
+                <FiGithub size={28} color="rgb(115,213,134)" />
               </a>
               <a
                 href="https://www.linkedin.com/in/gaston-nocquet-70710b237/"
@@ -79,7 +79,7 @@ const PersonalInfo = () => {
                 rel="noopener noreferrer"
                 className="contact-button"
               >
-                <FiLinkedin size={39} color="rgb(115,213,134)" />
+                <FiLinkedin size={28} color="rgb(115,213,134)" />
               </a>
             </div>
           </div>

@@ -1,5 +1,5 @@
 .projects-header {
-    font-size: 40px;
+    font-size: 37px;
     margin-bottom: 15px;
 }
 
@@ -16,7 +16,6 @@
 
 .img-project {
     width: 800px;
-    border-radius: 20px;
 }
 
 .project-container {
@@ -48,10 +47,27 @@
 
 .enlaces-container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
     gap: 20px;
+}
+
+.contact-button-project {
+    display: flex;
+    background-color: var(--background-black);
+    color: var(--main-green);
+    border: 1px solid rgb(49, 92, 58);
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 1.5px;
+    height: 40px;
+    align-items: center;
+}
+
+.contact-button-project:hover {
+    border: 1px solid var(--main-green);
+    transition: border 0.3s ease;
 }
 
 

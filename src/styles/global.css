@@ -9,7 +9,6 @@ body {
     color: white;
     display: flex;
     font-family: 'VT323', monospace;
-    font-size: 25px;
     justify-content: center;
     align-items: center;
     margin-left: 165px;
@@ -21,7 +20,7 @@ a:visited {
 
 .main-container {
     width: 90%;
-    max-width: 1700px;
+    max-width: 1250px;
 }
 
 footer {

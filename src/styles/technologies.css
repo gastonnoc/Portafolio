@@ -1,5 +1,5 @@
 .technologies-title {
-    font-size: 40px;
+    font-size: 37px;
 }
 
 .bordes-container {
@@ -16,5 +16,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    color: rgb(116, 214, 135);
+    font-size: 16px;
 }
 

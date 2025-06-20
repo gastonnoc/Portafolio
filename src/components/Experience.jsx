@@ -8,7 +8,7 @@ const Experience = () => {
       <h3 className="experience-title">Experience</h3>
       <div className="company">
         <div className="item-border">
-          <FaCode size={30} color="rgb(115,213,134)" />
+          <FaCode size={25} color="rgb(115,213,134)" />
         </div>
         <h4>Yolo Group</h4>
       </div>
