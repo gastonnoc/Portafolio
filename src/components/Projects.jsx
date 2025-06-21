@@ -178,7 +178,7 @@ const Projects = () => {
         <img
           className="img-project"
           src="/images/stake-monitor.png"
-          alt="BL-web"
+          alt="stake-monitor"
         />
       </div>
 
@@ -186,7 +186,7 @@ const Projects = () => {
         <img
           className="img-project"
           src="/images/other-games-monitor.png"
-          alt="BL-web"
+          alt="other-games-monitor"
         />
       </div>
 
@@ -194,7 +194,7 @@ const Projects = () => {
         <img
           className="img-project"
           src="/images/blackjack-monitor.png"
-          alt="BL-web"
+          alt="blackjack-monitor"
         />
       </div>
       <div className="tech-container">
@@ -232,7 +232,7 @@ const Projects = () => {
         <img
           className="img-project"
           src="/images/stream-framing.png"
-          alt="BL-web"
+          alt="stream-framing"
         />
       </div>
 
