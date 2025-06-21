@@ -1,12 +1,9 @@
-.technologies-title {
-    font-size: 37px;
-}
-
 .bordes-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .borde-tech {
@@ -18,5 +15,17 @@
     gap: 5px;
     color: rgb(116, 214, 135);
     font-size: 16px;
+}
+
+@media (max-width: 425px) {
+    .borde-tech {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .borde-tech {
+        padding: 1px;
+    }
 }
 

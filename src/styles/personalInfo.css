@@ -100,8 +100,8 @@ h2 {
     position: absolute;
     top: -1.8rem;
     right: 0;
-    background-color: rgb(115, 213, 134);
-    color: #000;
+    background-color: rgb(70, 166, 87);
+    color: #ffffff;
     padding: 2px 8px;
     border-radius: 5px;
     font-size: 17px;
@@ -115,8 +115,8 @@ h2 {
     position: absolute;
     top: -1.8rem;
     left: 0;
-    background-color: rgb(115, 213, 134);
-    color: #000;
+    background-color: rgb(70, 166, 87);
+    color: #ffffff;
     padding: 2px 8px;
     border-radius: 5px;
     font-size: 17px;
@@ -124,4 +124,87 @@ h2 {
     animation: fadeInOut 2s ease-in-out;
     pointer-events: none;
     z-index: 10;
+}
+
+/* @media (max-width: 425px) {
+    .profile-picture {
+        width: 95px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .localization {
+    gap: 8px;
+    font-size: 20px;
+    }
+
+    .email {
+    width: 200px;
+    height: 33px;
+    gap: 2px;
+    font-size: 15px;
+    }
+} */
+
+@media (max-width: 425px) {
+  .personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+  }
+
+  .info-picture {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-picture {
+    margin: 20px 0 10px;
+    align-self: center;
+  }
+
+  .personal-info-rest {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .localization {
+    font-size: 18px;
+    justify-content: center;
+  }
+
+    .email {
+    width: 200px;
+    height: 33px;
+    gap: 2px;
+    font-size: 15px;
+    }
+
+  .contact {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contact-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

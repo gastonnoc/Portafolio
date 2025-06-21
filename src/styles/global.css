@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    background-color: var(--background-black);
-    color: white;
-    display: flex;
-    font-family: 'VT323', monospace;
-    justify-content: center;
-    align-items: center;
-    margin-left: 165px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-black);
+  color: white;
+  font-family: 'VT323', monospace;
+  text-decoration: none;
+  overflow-x: hidden; 
 }
 
 a:visited {
@@ -19,13 +19,48 @@ a:visited {
 }
 
 .main-container {
-    width: 90%;
-    max-width: 1250px;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 footer {
     margin-bottom: 40px;
 }
+
+@media (max-width: 1024px) {
+    .main-container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 425px) {
+  .main-container {
+    max-width: 100%;
+    padding: 0 12px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .main-container h4 {
+    margin: 30px 0px;
+    font-size: 22px;
+  }
+
+  .main-container .subtitle, .main-container .experience-first-text{
+    font-size: 20px;
+  }
+}
+
 
 
 

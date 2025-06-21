@@ -12,6 +12,7 @@ import { RiNextjsLine } from "react-icons/ri";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiHtml5 } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
+import { FaPlay } from "react-icons/fa";
 import "../styles/projects.css";
 
 const Projects = () => {
@@ -23,14 +24,14 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <h3 className="projects-header">Projects</h3>
+      <h3 className="title">Projects</h3>
 
       <div className="project-title">
         <div className="item-border">
           <SiWhatsapp size={28} color="rgb(115,213,134)" />
         </div>
 
-        <p className="whatsapp-text">Whatsapp Clone</p>
+        <p className="project-text">Whatsapp Clone</p>
       </div>
 
       <div className="project-container">
@@ -96,7 +97,7 @@ const Projects = () => {
           <GiCardAceHearts size={30} color="rgb(115,213,134)" />
         </div>
 
-        <p className="whatsapp-text">Casino Break list</p>
+        <p className="project-text">Casino Break list</p>
       </div>
 
       <p className="experience-second-text">
@@ -149,9 +150,8 @@ const Projects = () => {
         <button
           className="contact-button-project"
           onClick={openBreakVideoModal}
-          style={{ marginTop: "1rem" }}
         >
-          ▶ Watch Demo Video
+          <FaPlay style={{ paddingRight: '5px' }} /> Watch Demo
         </button>
       </div>
 
@@ -160,7 +160,7 @@ const Projects = () => {
           <GiCardAceHearts size={30} color="rgb(115,213,134)" />
         </div>
 
-        <p className="whatsapp-text">Casino stream monitors</p>
+        <p className="project-text">Casino stream monitors</p>
       </div>
 
       <p className="experience-second-text">
@@ -213,7 +213,7 @@ const Projects = () => {
           <GiCardAceHearts size={30} color="rgb(115,213,134)" />
         </div>
 
-        <p className="whatsapp-text">Casino image framing</p>
+        <p className="project-text">Casino image framing</p>
       </div>
 
       <p className="experience-second-text">

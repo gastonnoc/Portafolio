@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className="about-me">
 
-      <h3 className="about-me-title">About me</h3>
+      <h3 className="title">About me</h3>
       
       <p className="text">
         I’m a Full Stack MERN developer with a strong passion for building

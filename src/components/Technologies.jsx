@@ -14,7 +14,7 @@ import { GrMysql } from "react-icons/gr";
 const Technologies = () => {
   return (
     <div>
-      <h3 className="technologies-title">Technologies</h3>
+      <h3 className="title">Technologies</h3>
       <div className="bordes-container">
         <div className="borde-tech">
           <SiHtml5 size={28} color="rgb(115,213,134)" />
@@ -62,7 +62,7 @@ const Technologies = () => {
         </div>
       </div>
 
-      <h3 className="technologies-title">Learning </h3>
+      <h3 className="title">Learning </h3>
       <div className="bordes-container">
       <div className="borde-tech">
         <RiNextjsLine size={28} color="rgb(115,213,134)" />

@@ -5,7 +5,7 @@ import "../styles/experience.css";
 const Experience = () => {
   return (
     <div className="experience">
-      <h3 className="experience-title">Experience</h3>
+      <h3 className="title">Experience</h3>
       <div className="company">
         <div className="item-border">
           <FaCode size={25} color="rgb(115,213,134)" />
