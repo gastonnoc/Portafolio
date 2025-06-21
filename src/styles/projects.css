@@ -73,6 +73,10 @@
     align-items: center;
 }
 
+.contact-button-project svg {
+    color: rgb(115, 213, 134);
+}
+
 .contact-button-project:hover {
     border: 1px solid var(--main-green);
     transition: border 0.3s ease;
