@@ -22,6 +22,16 @@ const Projects = () => {
 
   const closeBreakVideoModal = () => setShowBreakVideoModal(false);
 
+  const [modalImage, setModalImage] = useState(null);
+
+  const openImageModal = (src) => {
+  setModalImage(src);
+};
+
+const closeImageModal = () => {
+  setModalImage(null);
+};
+
   return (
     <div className="projects">
       <h3 className="title">Projects</h3>
@@ -40,6 +50,7 @@ const Projects = () => {
             className="img-project"
             src="/images/TP-Final-Whatsapp.png"
             alt="TP-Final-Whatsapp"
+            onClick={() => openImageModal("/images/TP-Final-Whatsapp.png")}
           />
         </div>
 
@@ -118,7 +129,12 @@ const Projects = () => {
       </p>
 
       <div className="img-container">
-        <img className="img-project" src="/images/BL-web.png" alt="BL-web" />
+        <img className="img-project" 
+              src="/images/BL-web.png" 
+              alt="BL-web" 
+              onClick={() => openImageModal("/images/BL-web.png")}
+        />
+              
       </div>
 
       <div className="tech-container">
@@ -179,6 +195,7 @@ const Projects = () => {
           className="img-project"
           src="/images/stake-monitor.png"
           alt="stake-monitor"
+          onClick={() => openImageModal("/images/stake-monitor.png")}
         />
       </div>
 
@@ -187,6 +204,7 @@ const Projects = () => {
           className="img-project"
           src="/images/other-games-monitor.png"
           alt="other-games-monitor"
+          onClick={() => openImageModal("/images/other-games-monitor.png")}
         />
       </div>
 
@@ -195,6 +213,7 @@ const Projects = () => {
           className="img-project"
           src="/images/blackjack-monitor.png"
           alt="blackjack-monitor"
+          onClick={() => openImageModal("/images/blackjack-monitor.png")}
         />
       </div>
       <div className="tech-container">
@@ -233,6 +252,7 @@ const Projects = () => {
           className="img-project"
           src="/images/stream-framing.png"
           alt="stream-framing"
+          onClick={() => openImageModal("/images/stream-framing.png")}
         />
       </div>
 
@@ -252,6 +272,7 @@ const Projects = () => {
       </div>
 
       <hr className="divider" />
+
       {showBreakVideoModal && (
         <div
           onClick={closeBreakVideoModal}
@@ -299,8 +320,39 @@ const Projects = () => {
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
+        </div>        
       )}
+      {modalImage && (
+  <div
+    onClick={closeImageModal}
+    style={{
+      position: "fixed",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundColor: "rgba(0,0,0,0.8)",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      zIndex: 2000,
+      cursor: "zoom-out",
+    }}
+  >
+    <img
+      src={modalImage}
+      alt="Ampliada"
+      style={{
+        maxHeight: "90%",
+        maxWidth: "90%",
+        borderRadius: "10px",
+        boxShadow: "0 0 20px rgba(0,0,0,0.6)",
+      }}
+      onClick={(e) => e.stopPropagation()}
+    />
+  </div>
+)}
+
     </div>
   );
 };
